@@ -1,0 +1,246 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+ 
+h1 {
+	line-height: 100px;
+	align-content: center;
+}
+/*BANNER WITH IMAGE */
+.main-banner {
+	width: 100%;
+	height: 150px;
+	background: url(../images/snek.png);
+	background-size: cover;
+	background-position:0% 10%;
+	position: relative;
+		
+}
+
+
+/*NAV BAR */
+.main-nav {
+	width:100%;
+	height:50px;
+	background:#07281D;
+	color: #6FF7CC;
+	font-family: 'dosis', cursive;
+
+}
+
+
+nav ul {
+	list-style: none;
+	text-align: center;
+	background: #000;
+	padding: 5px 0px;
+	
+}
+nav ul li {
+	display: inline-block;
+	width: 20%;
+	text-align: center;	
+}
+
+
+nav ul li a {
+	font-size: 24px;
+	text-decoration: none;
+	font-family:monospace;
+	color: #6FF7CC;
+	display: inline-block;
+	padding: 5px;
+	transition: .2s;
+}
+
+nav ul li a:hover {
+	background:#6FF7CC;
+	color:#07281D;
+	border-radius: 20px;
+	font-weight: 700
+}
+
+
+/*BANNER WORDS */
+.main-banner h1 {
+	position: absolute;
+	left: 50px;
+	color: #6FF7CC;
+	font-family: 'dosis', cursive;
+	text-shadow: 3px 3px 3px #000;
+	font-size: 50px;
+}
+
+/* HOME PAGE */
+
+.etymology {
+	background-color: #E8FFF7;
+	color: #07281D; 
+	text-align: center;
+	font-size: 20px;
+	width:90%;
+	margin:auto;
+}
+
+
+.snake-img {
+	background: url(../images/snek2.png);
+	background-size:cover;
+}
+
+.snek {
+/*	position: fixed;*/
+ 	top:350px;
+	font-family: "Sue_Ellen_Francisco";
+	text-align: center;
+	background:#6ff7cc;
+	color:#07281D;
+	width: 90%;
+	margin: 30px auto;
+  	background-color: #ffffff;
+  	border: 1px solid black;
+  	opacity: 0.6;
+  	filter: alpha(opacity=50);
+	padding: 5%;
+}
+
+/* FOOTER*/
+.main-footer {
+	width: 100%;
+	height: 50px;
+	background: #07281D;
+	clear:both;
+	color:#6ff7cc;
+	text-align: center;
+	font-family: 'dosis', cursive;
+	line-height: 3;
+	position:fixed;
+ 	bottom:0;
+ 	left:0;
+	margin-bottom: 0;
+}
+
+/*SIDE BAR */
+.aside {
+	position: absolute;
+    top: 200px;
+    left: 0px;
+	width: 300px;
+	height:1000px;
+	float: left;
+	padding: 20px;
+	background:#07281D;
+	color: #E8FFF7;
+	font-family: 'dosis', cursive;
+}
+
+.hand {
+	position: fixed;
+    left: 0px;
+ 	bottom:0px;
+}
+
+/* INFO PAGE */
+
+
+.main-content-info {
+    width: 100%;
+    height: 645px;
+    
+}
+
+.main-content-info p {
+    margin:20px;
+    padding-left: 100px;
+    padding-right: 400px;
+    font-family: "Sue_Ellen_Francisco";
+    text-align: justify;
+    word-wrap: break-word;
+}
+
+.main-content-info img {
+    position: relative;
+    float: center;
+    border-radius: 50%;
+    padding-top: 35px;
+}
+
+.info-left {
+		position: absolute;
+    	top: 200px;
+    	left: 300px;
+		width: 300px;
+		height:1000px;
+        width: 25%;
+        float: left;
+        background: #6FF7CC;
+        color: #07281D; 
+	    text-align: center;
+	    font-size: 14px;
+	    font-family: "Sue_Ellen_Francisco";
+ }
+
+.info-center {
+		position: absolute;
+    	top: 200px;
+    	left: 680px;
+		width: 300px;
+		height:1050px;
+        width: 25%;
+        height:1000px;
+        float: left;
+        background: #07281D;
+        color: #6FF7CC; 
+	    text-align: center;
+	    font-size: 14px;
+	    font-family: "Sue_Ellen_Francisco";
+ }
+        
+.info-right {
+        position: absolute;
+    	top: 200px;
+    	left: 1060px;
+		width: 300px;
+		height:1050px;
+        width: 25%;
+        height:1000px;
+        float: right;
+        background: #6FF7CC;
+        color: #07281D; 
+	    text-align: center;
+	    font-size: 14px;
+	    font-family: "Sue_Ellen_Francisco";
+    }
+.img
+        
+/* END INFO PAGE */
+
+	
+/* CONTACT PAGE */
+.form {
+	background: #7E968E;
+	font-size: 24px;
+	text-align: center;
+	padding: 30px;
+	
+}.form {
+	background: #E8FFF7;
+	font-size: 50px;
+	text-align: center;
+	padding: 30px;
+	
+}
+
+.contact-form {
+    font-size: 50px;
+	font-family: 'dosis', cursive;
+    text-align:center;
+    background-color: #6ff7cc;
+    
+}
+input[type="text"], textarea
+{
+     font-size: 25px;
+     font-family: monospace;
